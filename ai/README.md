@@ -7,9 +7,9 @@ MVP local de assinaturas de Kit Pao Quente, operacao de entregas e marketplace d
 - `frontend`: SPA React com Vite, Tailwind CSS, React Router, Lucide React e Leaflet.
 - `backend`: API Node.js com Express, CORS, JWT e persistencia SQLite.
 - `backend/data`: arquivo local do banco SQLite (nao versionado).
-- `arquitetura-sistema.md`: documento de arquitetura (camadas, entidades, endpoints e fluxos, com diagramas Mermaid).
-- `standards.md`, `architecture.md`, `tech-stack.md` e `business-rules.md`: arquivos de contexto para os agentes de IA.
-- `prd.md`: requisitos do produto.
+- `docs/arquitetura-sistema.md`: documento de arquitetura (camadas, entidades, endpoints e fluxos, com diagramas Mermaid).
+- `docs/standards.md`, `docs/architecture.md`, `docs/tech-stack.md` e `docs/business-rules.md`: arquivos de contexto para os agentes de IA.
+- `docs/prd.md`: requisitos do produto.
 
 ## Inicializacao
 
@@ -50,6 +50,7 @@ npm run lint
 
 | Rota | Publico | O que faz |
 | :--- | :--- | :--- |
+| `/cardapio` | Todos | Cardapio ilustrado dos paes |
 | `/cliente` | Cliente | Assinatura simples do Kit Pao Quente (quantidade e faixa de horario) |
 | `/padaria` | Padaria | Demanda do dia, rota ordenada por horario e despacho |
 | `/mapa` | Todos | Padarias proximas e matchmaking de pao quente |

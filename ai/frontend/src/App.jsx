@@ -3,6 +3,7 @@ import RequireSession from './components/RequireSession'
 import Assinaturas from './pages/Assinaturas'
 import BakeryPage from './pages/BakeryDashboard'
 import Cadastro from './pages/Cadastro'
+import CardapioCinematico from './pages/CardapioCinematico'
 import CustomerPage from './pages/CustomerView'
 import Fornadas from './pages/Fornadas'
 import HomePage from './pages/HomePage'
@@ -18,6 +19,7 @@ export default function App() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
+      <Route path="/cardapio" element={<CardapioCinematico />} />
       <Route path="/cliente" element={<CustomerPage />} />
       <Route path="/padaria" element={<BakeryPage />} />
       <Route path="/sobre" element={<Sobre />} />

@@ -27,13 +27,14 @@ Cronograma de fornadas em tempo real, mapa de padarias próximas, reservas com p
 |---|----------------|------|
 | 1 | Assinatura simples do Kit Pão Quente (quantidade e faixa de horário) | `/cliente` |
 | 2 | Painel da padaria: demanda do dia, rota por horário e despacho com notificação simulada | `/padaria` |
-| 3 | Contas com três papéis e login | `/cadastro`, `/login` |
-| 4 | Cadastro de padarias e produtos | `/operacao` |
-| 5 | Cronograma de fornadas com status em tempo real | `/fornadas`, `/operacao` |
-| 6 | Mapa de padarias próximas | `/mapa` |
-| 7 | Reserva com pagamento antecipado (simulado) | `/fornadas`, `/reservas` |
-| 8 | Assinaturas por plano com cashback | `/assinaturas` |
-| 9 | Quatro agentes de IA: demanda, matchmaking, rotas e retenção | `/mapa`, `/operacao` |
+| 3 | Cardápio ilustrado dos pães | `/cardapio` |
+| 4 | Contas com três papéis e login | `/cadastro`, `/login` |
+| 5 | Cadastro de padarias e produtos | `/operacao` |
+| 6 | Cronograma de fornadas com status em tempo real | `/fornadas`, `/operacao` |
+| 7 | Mapa de padarias próximas | `/mapa` |
+| 8 | Reserva com pagamento antecipado (simulado) | `/fornadas`, `/reservas` |
+| 9 | Assinaturas por plano com cashback | `/assinaturas` |
+| 10 | Quatro agentes de IA: demanda, matchmaking, rotas e retenção | `/mapa`, `/operacao` |
 
 ---
 
@@ -113,8 +114,9 @@ graph LR
 
 ```
 ai/
-├── standards.md, architecture.md, tech-stack.md, business-rules.md   # arquivos de contexto
-├── prd.md, arquitetura-sistema.md                                    # produto e arquitetura
+├── docs/
+│   ├── standards.md, architecture.md, tech-stack.md, business-rules.md   # arquivos de contexto
+│   └── prd.md, arquitetura-sistema.md                                    # produto e arquitetura
 ├── backend/src/
 │   ├── routes/          # rotas Express
 │   ├── middlewares/     # requireAuth, requireRole

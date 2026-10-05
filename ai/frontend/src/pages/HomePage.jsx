@@ -7,9 +7,14 @@ export default function HomePage() {
     <PageShell backTo={null}>
       <main className="mx-auto grid min-h-[calc(100vh-81px)] max-w-6xl items-center gap-12 px-5 pb-12 pt-8 sm:px-8 lg:grid-cols-[1.1fr_0.9fr] lg:gap-20 lg:pb-20 lg:pt-12">
         <section className="animate-rise">
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-[#f5cbb9] bg-[#fff2ea] px-3.5 py-2 text-xs font-bold uppercase tracking-[0.14em] text-[#c9532b]">
-            <span className="size-2 rounded-full bg-[#f26a3d]" />
-            Entrega todo dia
+          <div className="mb-6 flex flex-wrap items-center gap-2.5">
+            <div className="inline-flex items-center gap-2 rounded-full border border-[#f5cbb9] bg-[#fff2ea] px-3.5 py-2 text-xs font-bold uppercase tracking-[0.14em] text-[#c9532b]">
+              <span className="size-2 rounded-full bg-[#f26a3d]" />
+              Entrega todo dia
+            </div>
+            <Link to="/cardapio" className="inline-flex items-center gap-1.5 rounded-full border border-[#e07a3c]/30 bg-[#fff5ea] px-3.5 py-2 text-xs font-bold uppercase tracking-[0.12em] text-[#b44820] transition hover:bg-[#ffe8d6]">
+              ✨ Conheça os Pães
+            </Link>
           </div>
           <h1 className="font-display max-w-xl text-5xl font-bold leading-[0.98] tracking-[-0.04em] text-[#30231d] sm:text-7xl">
             O seu dia começa com pão <span className="text-[#e35b32]">quente.</span>
