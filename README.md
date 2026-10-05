@@ -12,6 +12,7 @@ O cliente assina o Kit Pão Quente ou reserva uma fornada pelo mapa; a padaria e
 | Arquivos de contexto | [`ai/docs/`](ai/docs/): [`standards.md`](ai/docs/standards.md), [`architecture.md`](ai/docs/architecture.md), [`tech-stack.md`](ai/docs/tech-stack.md) e [`business-rules.md`](ai/docs/business-rules.md) |
 | Prompts | [`ai/docs/prompts.md`](ai/docs/prompts.md) (arquitetura, geração de contexto e implementação) |
 | Implementação | [`ai/backend`](ai/backend) (API Node.js + Express + SQLite) e [`ai/frontend`](ai/frontend) (React + Vite + Tailwind) |
+| Vídeo de demonstração | [`video/demo-clube-do-pao.mp4`](video/demo-clube-do-pao.mp4) (3 min 22 s) |
 | Relatório de refatoração | [`ai/docs/relatorio-modernizacao.pdf`](ai/docs/relatorio-modernizacao.pdf) |
 
 O índice completo da documentação, incluindo o PRD, está em [`ai/docs/README.md`](ai/docs/README.md).
