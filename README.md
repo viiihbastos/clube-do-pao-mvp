@@ -10,6 +10,7 @@ O cliente assina o Kit Pão Quente ou reserva uma fornada pelo mapa; a padaria e
 | :--- | :--- |
 | Documento de arquitetura | [`ai/docs/arquitetura-sistema.md`](ai/docs/arquitetura-sistema.md) (camadas, permissões, entidades, endpoints e fluxos, com diagramas Mermaid) |
 | Arquivos de contexto | [`ai/docs/`](ai/docs/): [`standards.md`](ai/docs/standards.md), [`architecture.md`](ai/docs/architecture.md), [`tech-stack.md`](ai/docs/tech-stack.md) e [`business-rules.md`](ai/docs/business-rules.md) |
+| Prompts (arquitetura, geração de contexto e implementação) | [`ai/docs/prompts.md`](ai/docs/prompts.md) |
 | Requisitos do produto | [`ai/docs/prd.md`](ai/docs/prd.md) |
 | Implementação | [`ai/backend`](ai/backend) (API Node.js + Express + SQLite) e [`ai/frontend`](ai/frontend) (React + Vite + Tailwind) |
 
