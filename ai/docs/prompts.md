@@ -6,7 +6,7 @@ Os três prompts do laboratório, na ordem do fluxo de trabalho. A ideia é não
 | :--- | :--- | :--- |
 | 1. Arquitetura | [`arquitetura-sistema.md`](arquitetura-sistema.md) | Chat para montar o prompt; agente de código na IDE para gerar o documento e os diagramas em Mermaid |
 | 2. Geração de contexto | [`standards.md`](standards.md), [`architecture.md`](architecture.md), [`tech-stack.md`](tech-stack.md) e [`business-rules.md`](business-rules.md) | Agente de código na IDE |
-| 3. Implementação | `ai/backend` e `ai/frontend` | Agente de código na IDE (Cursor e Claude Code) |
+| 3. Implementação | `ai/backend` e `ai/frontend` | Agente de código na IDE (Antigravity, Cursor e Claude Code) |
 
 ---
 
