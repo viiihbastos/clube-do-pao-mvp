@@ -61,9 +61,11 @@ npm run lint
 
 ## Equipe
 
-- Danilo Sebastiany França
-- Kevin Peterson Coelho
-- Marcos Vinicius Souza Lima
-- Victor Bastos dos Santos
+| Integrante | RM |
+| :--- | :--- |
+| Danilo Sebastiany França | RM378444 |
+| Kevin Peterson Coelho | RM379085 |
+| Marcos Vinicius Souza Lima | RM377592 |
+| Victor Bastos dos Santos | RM377088 |
 
 Mais detalhes de execução e a lista de rotas da API estão em [`ai/README.md`](ai/README.md).
